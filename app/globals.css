@@ -16,7 +16,47 @@
   }
 }
 
-body {
+.topNavDiv{
+  width: 60%;
+}
+
+.sideNavDiv{
+  width: 40%;
+}
+
+body{
+  background-color: #EEEEEE;
+}
+
+.colPrimary{
+  background-color: #06113C;
+}
+
+.colSecondary{
+  background-color: #FF8C32;
+}
+
+.colAccent{
+  background-color: #DDDDDD;
+}
+
+.skew{
+  transform: skew(-30deg, 0deg);
+}
+
+.unskew{
+  transform: skew(30deg, 0deg);
+}
+
+.btnFontCol{
+  color:#EEEEEE;
+}
+
+.borderCol{
+  border-color: #DDDDDD;
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +64,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
