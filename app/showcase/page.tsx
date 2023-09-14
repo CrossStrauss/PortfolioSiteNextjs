@@ -7,8 +7,6 @@ import Project from './[project]/page'
 
 const Showcase = () => {
 
-  //const data = {id: Number, url: String, description: String}
-
   const PlaceholderData = {
     id: 0,
     url: '',
