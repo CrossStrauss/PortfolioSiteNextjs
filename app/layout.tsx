@@ -5,10 +5,10 @@ import { useState } from 'react';
 import { useAnimate } from 'framer-motion';
 import img1 from '../public/ResumeOfChrisStrauss_00001.jpg'
 
-export const metadata = {
-  title: 'Christopher Strauss portfolio',
-  description: 'The skills portfolio of Christopher Strauss',
-}
+// export const metadata = {
+//   title: 'Christopher Strauss portfolio',
+//   description: 'The skills portfolio of Christopher Strauss',
+// }
 
 export default async function RootLayout({children,}: {children: React.ReactNode}) {
 
