@@ -17,15 +17,16 @@
 }
 
 .topNavDiv{
-  width: 60%;
+  width: 100%;
 }
 
 .sideNavDiv{
-  width: 40%;
+  width: 100%;
 }
 
 body{
   background-color: #EEEEEE;
+  background-image: url('./../public/Tile-Background.jpg');
 }
 
 .colPrimary{
@@ -56,6 +57,23 @@ body{
   border-color: #DDDDDD;
 }
 
+.tiles{
+  border-color: #FF8C32;
+  color: #06113C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subBtn{
+  background-color: #06113C;
+}
+
+.subBtnDis{
+  background-color: unset;
+}
+/* body{
+  background-image: url('../public/bg-background.jpg');
+  background-size: cover;
+} */
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
