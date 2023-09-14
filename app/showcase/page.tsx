@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { motion as m } from "framer-motion";
 import Lottie from 'lottie-react';
-import animData from 'public/126196-jansmavip-html-and-coding-pages.json';
+import animData from '../../public/ShowcaseAnim.json';
 import Project from './[project]/page'
 
 const Showcase = () => {
